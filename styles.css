@@ -92,7 +92,7 @@ a{color:inherit;text-decoration:none}
   border:1px solid var(--btn-secondary-br);
   background:var(--btn-secondary-bg);
   color:var(--btn-secondary-tx);
-  font-weight:600;font-size:14px;
+  font-weight:600;font-size:15px;
   backdrop-filter:saturate(140%) blur(2px);
 }
 .btn:hover{background:rgba(255,255,255,.18)}
@@ -116,11 +116,13 @@ a{color:inherit;text-decoration:none}
   background:rgba(255,255,255,.10);
   border:1px solid rgba(255,255,255,.18);
   border-radius:var(--radius);
-  padding:16px;
+  padding:10px;
+  margin-top: 0px
 }
 
 /* ===== SECTIONS ===== */
-.section{margin-top:28px}
+.section{margin-top:20px}
+.section h1{margin:0 0 12px;font-size:26px;color:#ffffff;}
 .section h2{margin:0 0 12px;font-size:22px;color:#ffffff;}
 .section h3{margin:0 0 10px;font-size:18px}
 
