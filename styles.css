@@ -82,7 +82,6 @@ a{color:inherit;text-decoration:none}
   display: flex;
   flex-direction: column;
   gap: 5px;
-
 }
 
 .btn{
@@ -107,9 +106,8 @@ a{color:inherit;text-decoration:none}
 
 .hero-meta{display:grid;gap:6px;font-size:14px;color:rgba(255,255,255,.92)}
 
-.hero-grid{display:grid;grid-template-columns:1fr;gap:18px}
 @media(min-width:880px){
-  .hero-grid{grid-template-columns:1.4fr .6fr;align-items:start}
+  .hero-grid{display:grid;grid-template-columns:1.2fr 0.8fr; gap:18px}
   .hero-inner{padding:34px}
   .hero h1{font-size:34px}
 }
@@ -172,7 +170,7 @@ a{color:inherit;text-decoration:none}
   padding:22px;
   box-shadow:var(--shadow-soft);
 }
-.detail p{margin:0;color:var(--muted);max-width:85ch}
+.detail p{margin:0;color:var(--muted);}
 
 .cols{
   margin-top:14px;
